@@ -1,0 +1,13 @@
+[book]
+title = "Getting a Little Rusty"
+description = "A gentle introduction to reading and understanding Rust code without becoming an expert"
+authors = ["cloudstreet-dev"]
+language = "en"
+src = "."
+
+[output.html]
+git-repository-url = "https://github.com/cloudstreet-dev/Getting-a-Little-Rusty"
+edit-url-template = "https://github.com/cloudstreet-dev/Getting-a-Little-Rusty/edit/main/{path}"
+
+[build]
+build-dir = "book"
